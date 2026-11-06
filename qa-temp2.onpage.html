@@ -4,7 +4,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 <link type="text/css" rel="stylesheet" href="https://qa-temp2.pl.bugfocus.com/clientweb/chat-client-v4/css/form.css">
 <script type="text/javascript">
     SERVICE_PATTERN_CHAT_CONFIG = {
-        appId: '53a2553475eb4c8ebc0dd745a4840dac',
+        appId: 'd8ee790c02a643b79c20d01bdf1be142',
         apiUrl: 'https://qa-temp2.pl.bugfocus.com/clientweb/api/v1',
         tenantUrl: 'qa-temp2.pl.bugfocus.com',
         chatPath: 'https://qa-temp2.pl.bugfocus.com/clientweb/chat-client-v4/'
@@ -20,8 +20,21 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 </script>
 <script src="https://qa-temp2.pl.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
  <div class="sp-callback-form" id="sp-callback-form">
-   <input type="tel" id="sp-callback-Phone number" placeholder="Phone number"  required />
-   <input type="email" id="sp-callback-Email" placeholder="Email"  required />
+   <label>Fill in this form</label>
+   <input type="tel" id="sp-callback-null" placeholder="Callback phone number" />
+   <input type="tel" id="sp-callback-null" placeholder="Mobile number" />
+   <input type="email" id="sp-callback-null" placeholder="Email" />
+   <input type="text" id="sp-callback-null" placeholder="Name" />
+   <input type="text" id="sp-callback-null" placeholder="Enter Text" />
+   <input type="date" id="sp-callback-null" placeholder="Select Date" />
+   <textarea id="sp-callback-null" placeholder="Multiline text" ></textarea>
+   <input type="range" id="sp-callback-null"  min="0" max="5"/>
+   <input type="radio" id="sp-callback-null_a" name="sp-callback-null"  value="A" /><label for="sp-callback-null">A</label>
+   <input type="radio" id="sp-callback-null_b" name="sp-callback-null"  value="B" /><label for="sp-callback-null">B</label>
+   <select id="sp-callback-null" placeholder="Selection list" >
+      <option>A</option>
+      <option>B</option>
+   </select>
    <button id="sp-chat-submit-inline">Chat</button>
    <button id="sp-callback-submit-inline">Call</button>
 </div>
